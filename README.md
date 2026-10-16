@@ -169,28 +169,6 @@ L'application s'ouvrira automatiquement à l'adresse locale : `http://127.0.0.1:
 
 ---
 
-## ☁️ Déploiement sur Hugging Face Spaces
-
-Ce projet est directement prêt pour un déploiement en 1 clic sur **Hugging Face Spaces** :
-
-1. Créez un nouveau Space nommé **`projet_oiseaux_ravageurs`** sur [Hugging Face](https://huggingface.co/new-space) :
-   - **Nom du Space :** `projet_oiseaux_ravageurs`
-   - **Space type :** `Gradio`
-   - **Hardware :** `CPU basic (gratuit)` ou `T4 (recommandé pour grande charge)`
-2. Liez votre dépôt local au Space distant :
-   ```bash
-   git remote add space https://huggingface.co/spaces/drepl/projet_oiseaux_ravageurs
-   ```
-3. Poussez les fichiers :
-   ```bash
-   git add .
-   git commit -m "feat: Déploiement démo détection oiseaux ravageurs du riz"
-   git push space main
-   ```
-4. Hugging Face Spaces détectera automatiquement `app.py` et le fichier `requirements.txt` grâce aux métadonnées YAML configurées en tête du présent `README.md`.
-
----
-
 ## 🔭 Perspectives & Roadmap
 
 - [ ] **Modèle Edge AI (TFLite) :** Quantification INT8 pour déploiement sur Raspberry Pi ou caméra piège solaire autonome.
