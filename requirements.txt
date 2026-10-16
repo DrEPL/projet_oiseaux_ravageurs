@@ -1,0 +1,14 @@
+# Core Deep Learning & Keras 3 runtime
+tensorflow>=2.16.1
+keras>=3.0.0
+
+# Web Application & Demo (Hugging Face Spaces)
+gradio>=4.38.0
+
+# Image & Data Processing
+numpy>=1.24.0,<2.1.0
+pillow>=10.0.0
+
+# Evaluation & Metrics
+scikit-learn>=1.3.0
+pandas>=2.0.0
