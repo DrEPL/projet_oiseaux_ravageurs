@@ -142,7 +142,7 @@ projet_oiseaux_ravageurs/
 ### 1. Cloner le projet et créer l'environnement virtuel
 ```bash
 # Cloner le dépôt
-git clone https://huggingface.co/spaces/<VOTRE_USER>/projet_oiseaux_ravageurs
+git clone https://huggingface.co/spaces/drepl/projet_oiseaux_ravageurs
 cd projet_oiseaux_ravageurs
 
 # Créer un environnement virtuel avec Python 3.10 ou 3.11
@@ -179,7 +179,7 @@ Ce projet est directement prêt pour un déploiement en 1 clic sur **Hugging Fac
    - **Hardware :** `CPU basic (gratuit)` ou `T4 (recommandé pour grande charge)`
 2. Liez votre dépôt local au Space distant :
    ```bash
-   git remote add space https://huggingface.co/spaces/<VOTRE_USER>/projet_oiseaux_ravageurs
+   git remote add space https://huggingface.co/spaces/drepl/projet_oiseaux_ravageurs
    ```
 3. Poussez les fichiers :
    ```bash
